@@ -13,7 +13,7 @@ let package = Package(
             targets: ["Hodler"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/moneyclip-io/BitcoinCore.Swift.git", branch: "feat/modify-checkpoint-to-accept-block"),
+        .package(url: "https://github.com/moneyclip-io/BitcoinCore.Swift.git", branch: "feat/sc-8646-Use-Blockchain-API-for-Testnet-Sync"),
         .package(url: "https://github.com/horizontalsystems/HsCryptoKit.Swift.git", .upToNextMajor(from: "1.0.0")),
     ],
     targets: [
